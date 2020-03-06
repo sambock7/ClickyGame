@@ -9,11 +9,11 @@ function FriendCard(props) {
       </div>
       <div className="content">
 
-            <h1 className="name">{props.name}</h1>
+            <p className="name">{props.name}</p>
 
       </div>
       <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
+x
       </span>
     </div>
   );
